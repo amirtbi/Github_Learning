@@ -8,6 +8,7 @@ namespace WindowsFormsApp1
 {
     static class Program
     {
+        
         //Hello World (1)
         /// <summary>
         /// The main entry point for the application.
@@ -15,6 +16,7 @@ namespace WindowsFormsApp1
         [STAThread]
         static void Main()
         {
+            person oPerson = new person();
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
